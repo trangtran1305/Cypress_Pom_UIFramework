@@ -1,0 +1,22 @@
+{
+    "defaultCommandTimeout": 10000,
+    "chromeWebSecurity": true,
+    "pageLoadTimeout": 30000,
+    "env": {
+      "baseUrl": "http://live.techpanda.org/"
+    },
+    "projectId": "25ip71",
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "custom-title"
+      }, 
+    "quite": true,
+    "overwrite": false,
+    "html": true,
+    "json": true
+    } 
+  
+  
+

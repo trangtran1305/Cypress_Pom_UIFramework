@@ -1,0 +1,16 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-runner": "npx cypress open",
+    "tests": "node_modules\\.bin\\cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "cypress-mochawesome-reporter": "^2.3.0"
+  }
+}
